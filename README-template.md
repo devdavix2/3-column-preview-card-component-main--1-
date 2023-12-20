@@ -16,10 +16,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### The challenge
 
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
+The main goals of this challenge were to create a responsive layout that adjusts well to different screen sizes and implement interactive hover states for elements.
 
 ### Screenshot
 
@@ -31,7 +28,6 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 
 ### Built with
