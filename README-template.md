@@ -27,7 +27,7 @@ The main goals of this challenge were to create a responsive layout that adjusts
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL:(https://3-column-preview-card-component-main-1.vercel.app/)
 
 
 ### Built with
