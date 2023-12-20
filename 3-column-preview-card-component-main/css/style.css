@@ -1,0 +1,283 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+body{
+    background: hsl(0, 0%, 95%);
+
+
+  
+}
+
+
+.main {
+    display: flex;
+    flex-direction: row; /* Default value for flex-direction is row, so this line can be omitted */
+    justify-content: center;
+    align-items: center; /* Use align-items to vertically center items */
+    margin-left: 300px;
+    margin-right: 200px;
+    margin-top: 50px;
+ 
+  
+  }
+
+  img{
+    height: auto;
+    width: 50px;
+}
+p{
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 30px;
+    width: auto;
+    
+}
+
+h1{
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    color:  hsl(0, 0%, 95%)        ;
+    text-transform: uppercase;
+
+}
+
+.sedan{
+    background: hsl(31, 77%, 52%);
+    height: 400px;
+    width: 400px;
+    padding: 50px;
+   
+    
+   
+
+
+}
+
+.suvs{
+    background:  hsl(184, 100%, 22%);
+    height: 400px;
+    width: 400px;
+    padding: 50px;
+    
+}
+
+.luxury{
+    background: hsl(179, 100%, 13%);
+    height: 400px;
+    width: 400px;
+    padding: 50px;
+  
+
+}
+
+.sedan button{
+    border: none;
+    background:  hsl(0, 0%, 95%)
+    ;
+    color: hsl(31, 77%, 52%);
+    padding: 10px;
+    border-radius: 20px;
+        width: 120px;
+    height: 40px;
+
+    font-family: "Lexend Deca";
+    margin-top: 50px;
+ 
+}
+
+
+.suvs button{
+    border: none;
+    background:  hsl(0, 0%, 95%)
+    ;
+    color: hsl(184, 100%, 22%);
+    padding: 10px;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    font-family: "Lexend Deca";
+    margin-top: 50px;
+
+
+}
+
+
+.luxury button{
+    border: none;
+    background:  hsl(0, 0%, 95%)
+    ;
+    color: hsl(179, 100%, 13%);
+    padding: 10px;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    margin-top: 50px;
+    font-family: "Lexend Deca";
+
+
+
+}
+
+.attribution{
+font-family: "Lexend Deca";
+display: block;
+text-align: center;
+margin-top: 20px;
+}
+
+button:hover {
+    background: transparent; /* Adjusted background color on hover */
+    cursor: pointer;
+    color:  hsl(0, 0%, 95%);
+    border: solid 1px   hsl(0, 0%, 95%)
+    ;
+
+  }
+
+
+
+
+@media screen and (max-width: 375px) {
+    
+  
+    .main{
+      display: block;
+      padding: 10px;
+      margin: 20px;
+
+    }
+
+    img{
+        height: auto;
+        width: 50px;
+    }
+    p{
+        font-family: "Lexend Deca";
+        font-weight: 400;
+        font-size: 15px;
+        color: hsla(0, 0%, 100%, 0.75);
+        line-height: 30px;
+        width: auto;
+        
+    }
+
+    h1{
+        font-family: "Big Shoulders Display";
+        font-weight: 700;
+        color:  hsl(0, 0%, 95%)        ;
+        text-transform: uppercase;
+
+   }
+
+    .sedan{
+        background: hsl(31, 77%, 52%);
+        height: 300px;
+        width: auto;
+        padding: 50px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        
+       
+
+    
+    }
+
+    .suvs{
+        background:  hsl(184, 100%, 22%);
+        height: 300px;
+        width: auto;
+        padding: 50px;
+        
+    }
+
+    .luxury{
+        background: hsl(179, 100%, 13%);
+        height: 300px;
+        width: auto;
+        padding: 50px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+
+
+    }
+
+    .sedan button{
+        border: none;
+        background:  hsl(0, 0%, 95%)
+        ;
+        color: hsl(31, 77%, 52%);
+        padding: 10px;
+        border-radius: 20px;
+        width: 100px;
+        font-family: "Lexend Deca";
+        margin-top: -20px;
+    
+    }
+
+
+    .suvs button{
+        border: none;
+        background:  hsl(0, 0%, 95%)
+        ;
+        color: hsl(184, 100%, 22%);
+        padding: 10px;
+        border-radius: 20px;
+        width: 100px;
+        font-family: "Lexend Deca";
+        margin-top: -20px;
+
+
+    }
+
+
+    .luxury button{
+        border: none;
+        background:  hsl(0, 0%, 95%)
+        ;
+        color: hsl(179, 100%, 13%);
+        padding: 10px;
+        border-radius: 20px;
+        width: 100px;
+        font-family: "Lexend Deca";
+        margin-top: -20px;
+   
+
+
+    }
+
+    
+button:hover {
+    background: transparent; /* Adjusted background color on hover */
+    cursor: pointer;
+    color:  hsl(0, 0%, 95%);
+    border: solid 1px   hsl(0, 0%, 95%)
+    ;
+
+  }
+
+
+    
+    
+
+.attribution{
+    font-family: "Lexend Deca";
+   display: block;
+   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+    
+    
+  }
+  
